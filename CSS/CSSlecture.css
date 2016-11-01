@@ -1,0 +1,24 @@
+
+body {background-color: rgba(0, 0, 0, 0.59)
+}
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+body {font-family: 'Kaushan Script', cursive;}
+#paint {color: #c9ffce;}
+#kite {color: #efff82;}
+.red-group {color: #80374c;}
+.bold {font-weight: bolder;}
+#container {font-size: xx-large;}
+.break {font-size: xx-large;}
+.break a {color: #efff82;}
+h4 {mso-font-pitch: variable;}
+ul {color: whitesmoke;}
+.hot {  height:600px;
+        width:600px;
+        background-color: #fff2c5;
+        padding:175px;
+        border: 30px double;
+        margin:10px;
+        box-sizing: border-box;
+        box-shadow: 40px 40px 20px rgba(223, 249, 167, 0.45);}
+#second {background-color: #78ffb6;}
+#second

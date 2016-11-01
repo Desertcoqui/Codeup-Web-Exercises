@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+
+body {
+     background-image: url('../IMG/Mist.jpg');
+     background-repeat: no-repeat;
+     background-size: 110%;
+ }
+
+//*#sidebar1 {
+    width: 15em; height: 52em;
+    border: 1em  solid rgba(185, 123, 59, 0.55);
+    padding: .25em;
+    top: 0;
+    left:0;
+    position: absolute;
+
+}*//
+
+
+
