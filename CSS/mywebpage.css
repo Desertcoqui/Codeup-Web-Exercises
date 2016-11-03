@@ -1,20 +1,126 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel');
+.background {
+    /*background-image: url('../IMG/Mist.jpg');
+    background-color: #0f0f0f;
+    background-attachment: fixed;
+    margin-bottom: 47em;
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    background-color: #0f0f0f;
+    background-size: cover;
+}
 
- .Mypage{
-     background-image: url('../IMG/Mist.jpg');
-     background-repeat: no-repeat;
-     background-size: 110%;
- }
 
-//*#sidebar1 {
-    width: 15em; height: 52em;
-    border: 1em  solid rgba(185, 123, 59, 0.55);
-    padding: .25em;
-    top: 0;
-    left:0;
+.c {
+    font-size: 15px;
+}
+
+.b {
+    padding: 70px;
+}
+
+.b > h1 {
+    margin-bottom: 10px;
+}
+
+.c {
+    background: #262626;
+    width: 350px;
+    height: 300px;
+    position: fixed;
+    bottom: -300px;
+    right: 20px;
+    transition: bottom 0.5s ease-in-out;
+}
+
+.c:target {
+    bottom: 0;
+}
+
+.cl {
+    text-decoration: none;
+    color: white;
+    background: #262626;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    display: block;
     position: absolute;
+    top: -30px;
+    right: 20px;
+}
 
-}*//
+.ct {
+    padding: 30px 30px 0;
+}
+
+.t {
+    margin-bottom: 10px;
+}
+
+.t > label {
+    font-size: 12px;
+    color: white;
+}
+
+.t > input[type="text"],
+.t > textarea {
+    font-size: 15px;
+    color: white;
+    background: #424242;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.t > input[type="text"]:focus,
+.t > textarea:focus {
+    color: black;
+    background: white;
+}
+
+.t > textarea {
+    resize: none;
+}
+
+.bt {
+    font-size: 15px;
+    color: black;
+    background: #e8e8e8;
+    display: inline-block;
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+.bt:active {
+    background: #f4f4f4;
+}
+
+.bt.p {
+    color: white;
+    background: #2974ff;
+}
+
+.bt.p:active {
+    background: #3689ff;
+}
+
+.a-r {
+    text-align: right;
+}
+
+@media (max-width: 767px) {
+    .c {
+        width: auto;
+        left: 40px;
+        right: 40px;
+}
+
 
 
 
