@@ -1,7 +1,7 @@
 /**
  * Created by PapoteDetres1 on 11/7/16.
  */
-"use strict";
+"use strict"
 
 // TODO: Ask the user for their name.
 //       Keep asking if an empty input is provided.
@@ -11,4 +11,11 @@
 // TODO: Ask the user if they like pizza.
 //       Based on their answer show a creative alert message.
 
-var name= prompt("What is your name?");
+//var name= prompt("What is your name?");
+
+//function add (x) {
+//    var result= x+1;
+//    return result;
+//}
+//
+
