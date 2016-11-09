@@ -30,21 +30,78 @@
 //do not subtract the two numbers inside of your subtract function
 //instead call your add function
 
-var a = parseFloat (prompt("enter value a"));
-var b = parseFloat (prompt("enter value b"));
+//var a = parseFloat (prompt("enter value a"));
+//var b = parseFloat (prompt("enter value b"));
+//
+//
+//function plusTwo(a,b) {
+//    return a+b;
+//}
+//
+//
+//
+//
+//var returnValue = plusTwo(a,b);
+//
+////var tenPlusTwo = plusTwo(10, 2);
+////var fiveAndFive = plusTwo(60, 5);
+//
+//console.log(returnValue);
+//alert("Your answer is " + returnValue);
 
 
-function plusTwo(a,b) {
-    return a+b;
+var random= Math.floor((Math.random ()*100)+1);
+
+
+function calculateHEBDiscount(shoppername, groceryTotal) {
+    var whatIsYourName = (prompt("Type Shoppers name"));
+    alert("Hello " + whatIsYourName)
+    var yourDiscount = parseInt(prompt("What is their total"));
+    alert("your discount is % " + random);
+    var total=(yourDiscount - ((random/100)*yourDiscount));
+    alert("You total is " + "$" + total.toFixed(2));
+    {
+        return(total);
+    }
 }
 
 
 
 
-var returnValue = plusTwo(a,b);
 
-//var tenPlusTwo = plusTwo(10, 2);
-//var fiveAndFive = plusTwo(60, 5);
+calculateHEBDiscount();
 
-console.log(returnValue);
-alert("Your answer is " + returnValue);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
