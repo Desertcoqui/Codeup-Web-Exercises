@@ -1,0 +1,37 @@
+
+/*this "*" selects all my elemets*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+}
+#calculator {
+    width: 400px;
+    margin: 50px auto 0 auto;
+}
+.result {
+    width: 380px;
+    height: 40px;
+    border: 4px solid #3d7880;
+/* the point where the text inside my box displays*/
+    line-height: 30px;
+}
+
+
+.clear, button {
+    height: 40px;
+    border: 1px solid grey;
+    text-align: center;
+    line-height: 40px;
+    /* lets me know Im within the clickable buttons*/
+    cursor: progress;
+}
+.clear {
+    width: 95px;
+    float: left;
+}
+button {
+    float: left;
+    width: 95px;
+}

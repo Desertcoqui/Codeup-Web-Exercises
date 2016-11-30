@@ -1,0 +1,41 @@
+
+/*this "*" selects all my elemets*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+}
+#calculator {
+    width: 400px;
+    margin: 50px auto 0 auto;
+}
+.result > div{
+    position: relative;
+    float:left;
+    width: 127px;
+    height: 40px;
+    border: 3px solid #3d7880;
+    padding-left:5px;
+
+    /* the point where the text inside my box displays*/
+    line-height: 50px;
+}
+
+
+.clear, button {
+    height: 40px;
+    border: 2px solid #aaecff;
+    text-align: center;
+    line-height: 20px;
+    /* lets me know Im within the clickable buttons*/
+    cursor: progress;
+}
+.clear {
+    width: 95px;
+    float: left;
+}
+button {
+    float: left;
+    width: 95px;
+}
