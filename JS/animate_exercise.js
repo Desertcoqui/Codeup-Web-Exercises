@@ -19,15 +19,11 @@
         });
 
         $("#btn-hide").click(function () {
-            $("#animate-box").hide({
-                width: "50%"
-            }, 1000);
+            $("#animate-box").hide(1000);
         });
 
         $("#btn-show").click(function () {
-            $("#animate-box").show({
-                width: "50%"
-            }, 1000);
+            $("#animate-box").show(1000);
         });
         $("#btn-all").click(function() {
             $("#animate-box").animate({

@@ -10,34 +10,6 @@ $(document).ready(function() {
         $('dd').toggleClass('highlighted');
         $('.donkey').animate({ opacity: 0 }, { duration: 1000 });
         $('.donkey').animate({ opacity: 1 }, { duration: 2000 });
-        $('.donkey').animate({ opacity: 0 }, { duration: 1000 });
-        $('.donkey2').animate({ opacity: 1 }, { duration: 2000 });
-        $('.donkey2').animate({ opacity: 0 }, { duration: 1000 });
-        $('.donkey2').animate({ opacity: 1 }, { duration: 2000 });
-        $('.donkey').animate({ opacity: 0 }, { duration: 1000 });
-        $('.donkey').animate({ opacity: 1 }, { duration: 2000 });
-        $('.donkey').animate({ opacity: 0 }, { duration: 1000 });
-        $('.donkey2').animate({ opacity: 1 }, { duration: 2000 });
-        $('.donkey2').animate({ opacity: 0 }, { duration: 1000 });
-        $('.donkey2').animate({ opacity: 1 }, { duration: 2000 });
-        $('.donkey').animate({ opacity: 0 }, { duration: 1000 });
-        $('.donkey').animate({ opacity: 1 }, { duration: 2000 });
-        $('.donkey').animate({ opacity: 0 }, { duration: 1000 });
-        $('.donkey2').animate({ opacity: 1 }, { duration: 2000 });
-        $('.donkey2').animate({ opacity: 0 }, { duration: 1000 });
-        $('.donkey2').animate({ opacity: 1 }, { duration: 2000 });
-        $('.donkey').animate({ opacity: 0 }, { duration: 1000 });
-        $('.donkey').animate({ opacity: 1 }, { duration: 2000 });
-        $('.donkey').animate({ opacity: 0 }, { duration: 1000 });
-        $('.donkey2').animate({ opacity: 1 }, { duration: 2000 });
-        $('.donkey2').animate({ opacity: 0 }, { duration: 1000 });
-        $('.donkey2').animate({ opacity: 1 }, { duration: 2000 });
-        $('.donkey').animate({ opacity: 0 }, { duration: 1000 });
-        $('.donkey').animate({ opacity: 1 }, { duration: 2000 });
-        $('.donkey').animate({ opacity: 0 }, { duration: 1000 });
-        $('.donkey2').animate({ opacity: 1 }, { duration: 2000 });
-        $('.donkey2').animate({ opacity: 0 }, { duration: 1000 });
-        $('.donkey2').animate({ opacity: 1 }, { duration: 2000 });
 
 
     });

@@ -1,0 +1,34 @@
+[
+  {
+    "title": " Bad Ass Hammer",
+    "quantity": 25,
+    "categories": [
+      "Tool"
+    ],
+    "price": 20
+  }, {
+  "title": " Freakin Drill",
+  "quantity": 5,
+  "categories": [
+    "Tool",
+    "Powered"
+  ],
+  "price": 100
+}, {
+  "title": "Your Grannys Mower",
+  "quantity": 5,
+  "categories": [
+    "Tool",
+    "Gas",
+    "Outdoor"
+  ],
+  "price": 200
+}, {
+  "title": "Screwdrivers with Vodka",
+  "quantity": 25,
+  "categories": [
+    "Tool"
+  ],
+  "price": 10
+}
+]

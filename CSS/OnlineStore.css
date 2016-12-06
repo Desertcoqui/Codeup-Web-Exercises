@@ -1,0 +1,32 @@
+.pageColor{
+    background-color: black;
+}
+
+h1{
+    color: #9acfea;
+    text-align: center;
+    font-size: 90px;
+
+}
+.table{font-family: "Yuppy SC";
+    font-size: 60px;
+    text-align: center;
+    width: 400px;
+    color: ghostwhite;
+}
+
+.ajax{
+    font-size: 20px;
+    text-align: center;
+    color: lightblue;
+}
+
+#donkey{
+    width:500px;
+    height:350px;
+    opacity: 1;
+}
+
+#donkey3{
+    height:350px;
+}
